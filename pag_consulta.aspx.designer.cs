@@ -11,7 +11,7 @@ namespace Consultar_tarjeta_T1
 {
 
 
-    public partial class _Default
+    public partial class pag_consulta
     {
     }
 }

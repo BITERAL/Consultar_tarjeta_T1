@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Consultar_tarjeta_T1
 {
-    public partial class consultar : System.Web.UI.Page
+    public partial class pag_consulta : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
