@@ -42,13 +42,13 @@ namespace Consultar_tarjeta_T1
         protected global::System.Web.UI.WebControls.Label label1;
 
         /// <summary>
-        /// Control Dro.
+        /// Control TexCedula.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Dro;
+        protected global::System.Web.UI.WebControls.TextBox TexCedula;
 
         /// <summary>
         /// Control Button.

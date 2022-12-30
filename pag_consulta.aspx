@@ -3,11 +3,20 @@
 
     <div class="jumbotron">
         <h1>BIENVENIDO A LA INTRANET APLICACIONES</h1>
-        <p class="lead">Digita Tipo de Documento</p>
-        <p><a href="pag_consulta.aspx" class="btn btn-primary btn-lg">Consultar</a></p>
-        <p><a href="default.aspx" class="btn btn-primary btn-lg">inicio &raquo;</a></p>
+            <div class="conthcl" style="width:600px; height: 60px; margin-top: 30px;
+                margin-left:100px;">
+              <asp:Label ID="label1" runat="server" Text="La consulta para el usuario"></asp:Label> 
+              <asp:TextBox ID="TexCedula" runat="server" ></asp:TextBox> 
+            
+                  <div>
+                  
+                      <asp:Button runat="server" Text="Atras" OnClick="Unnamed1_Click"></asp:Button>
+                      <asp:Button runat="server" Text="Siguiente" OnClick="Unnamed2_Click"></asp:Button>
+                  </div>
+                <asp:GridView ID="GridView" runat="server">  </asp:GridView>  
         
-    </div>
+             </div>          
+     </div>
     <%--  --%>
 
 
