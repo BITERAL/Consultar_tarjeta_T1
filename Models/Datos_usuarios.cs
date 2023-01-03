@@ -28,8 +28,8 @@ namespace Consultar_tarjeta_T1
         [Required, StringLength(100), Display(Name = "Name")]
         public string Titular { get; set; }
 
-        [Required, StringLength(100), Display(Name = "tipo tarjeta"), DataType(DataType.MultilineText)]
-        public string Tipotarjeta { get; set; }
+        [Required, StringLength(100), Display(Name = "tipo Documento"), DataType(DataType.MultilineText)]
+        public string TipoDocumento { get; set; }
         public string NumeroTarjeta { get; set; }
         public string Estadotarj { get; set; }
         public string FechaEstado { get; set; }
@@ -51,8 +51,8 @@ namespace Consultar_tarjeta_T1
         [ScaffoldColumn(false)]
         public int Tipo_DocID { get; set; }
 
-        [Display(Name = "tipo tarjeta")]
-        public string Tipotarjeta { get; set; }
+        [Display(Name = "tipo Documento")]
+        public string TipoDocumento { get; set; }
         public virtual ICollection<Datos_griview>  Datos_Griviews{ get; set; }
 
     }
